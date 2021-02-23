@@ -1,5 +1,5 @@
 const { User, Post, Subbreaddit } = require('./models/index');
-
+//hello
 const getUserAndPosts = async (userId) => {
   // lazy-loading
   const user = await User.findByPk(userId);
